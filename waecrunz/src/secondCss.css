@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Exo',sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: #454C9B;
+    border-radius: 5px;
+}
+
+h4{
+    font-weight: 300;
+}
+
+h3{
+    font-weight: 350;
+}
+.welcomeBackFlexer{
+    display: flex;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* border: 2px solid black; */
+}
+
+.login{
+    height: 100vh;
+    width:100% ;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginDiv{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #454c9ba8;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;   
+
+}
+
+.welcomeBack{
+    font-weight: 400;
+    font-size: 27px;
+}
+
+.loginH1{
+    text-align: center;
+    font-weight: 300;
+}
+
+.loginForm{
+    padding-top: 20px;
+    height: 300px;
+    width: 320px;
+    border: 1px solid #454c9b6e;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.emailDiv, .passwordDDiv{
+    height: 50px;
+    width: 80%;
+    border: 1px solid #454C9B;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+}
+
+#email, #password{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+.passwordEye{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.eyeImage{
+    height: 100%;
+    width: 100%;
+}
+
+.submitLogin{
+    background-color: white;
+    outline: none;
+    border: none;
+    background-color: #454C9B;
+    cursor: pointer;
+    padding:10px ;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+
+.submitLogin:hover{
+    background-color:white;
+    color: #454C9B;
+    border: 1px solid #454C9B;
+}
+
+.submitLogin:active{
+    background-color: black;
+    color: #454C9B;
+}
+
+.dontLogin2{
+    font-size: 10px;
+}
+
+.signUpLink{
+    font-size: 13px;
+}
+
+.signUpInLogin{
+    border: 1px solid  #454C9B;
+    border-radius: 30px;
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+.signUpInLogin:hover{
+    background-color: #454C9B;
+    color: white;
+}
+
+.signUpInLogin:active{
+    background-color: black;
+    color: white;
+}
+
+
+/* sign Up */
+
+.SignUpDiv{
+    height: 630px;
+    width: 400px;
+    border: 1px solid #454c9b57;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.createAccountFlexer{
+    display: flex;
+    width: 100%;
+    height:70px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 2px solid black; */
+
+}
+
+.signUpForm{
+    padding-top: 20px;
+    height: 430px;
+    width: 320px;
+    border: 1px solid #454c9b3f;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.signUpEmailDiv , .signUpPasswordDiv{   
+    height: 40px;
+    width: 80%;
+    border: 1px solid #454C9B;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.dontLogin2{
+    text-align: center;
+}
+
+/* Responsivity */
+
+@media (max-width:480px){
+
+    .welcomeBackFlexer{
+        gap: 5px;
+    }
+
+    .loginDiv{
+       width: 300px;
+    }
+
+    .loginForm{
+        width: 270px;
+    }
+
+    .createAccountFlexer{
+        gap: 0px;
+        text-align: center;
+    }
+
+    .SignUpDiv{
+      width: 300px;
+    }
+
+    .signUpForm{
+        width: 270px;
+    }
+    
+}

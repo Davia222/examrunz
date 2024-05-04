@@ -1,0 +1,167 @@
+.workspaceHeader{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+}
+
+.workspaceLogo{
+    /* border: 1px solid black; */
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: white;
+}
+
+.WorkSpaceLogoImg{
+    height: 70px; 
+}
+
+.headerSpacer{
+    width: 25%;
+}
+
+.workSpaceLogoName{
+    color: white;
+}
+
+.workspaceH1{
+    /* border: 1px solid black; */
+    font-weight: 350;
+    width:100% ; 
+    text-align: center;
+    height: 50px;
+    justify-self: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.activeUsers{
+    /* border: 1px solid black; */
+    width: 150px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+   gap: 4px;
+    padding: 7px;
+    color: white;
+    flex-shrink: 0;
+    border: 1px solid white;
+    justify-content: center;
+}
+
+.notNeeded{
+    color: white;
+}
+
+.onlineIndicator{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 255, 0);
+    flex-shrink: 0;
+    animation: blinker infinite 700ms;
+}
+
+@keyframes blinker {
+    0%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: rgb(0, 255, 0);
+    }
+}
+.activeNumber{
+    color: white;
+}
+
+/* choose Exam Sector */
+
+.workSpaceExamSec{
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selExam{
+    height: 100%;
+    width: 280px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.waecSec{
+    height: 70%;
+    width: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.waecLogoImg{
+    height: 30px;
+}
+
+.slider{
+    height: 10px;
+    /* border: 1px solid black;  */
+    width: 260px;
+    display: flex;
+}
+
+.moveableSlider{
+    height: 100%;
+    width: 80px;
+    border-radius: 10px ;
+    background-color: #454c9bd3;
+}
+/* Responsivity */
+
+@media screen and (max-width:600px) {
+
+    .workspaceHeader{
+        padding:10px;
+    }
+
+    .WorkSpaceLogoImg{
+        height: 50px;
+    }
+
+    .workspaceLogo{
+        font-size: 12px;
+        /* border: 1px solid black; */
+        width: 85px;
+    }
+
+
+    .workspaceH1{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid black; */
+    }
+
+    .activeUsers{
+        /* border: 1px solid black; */
+        font-size: 12px;
+        width: 85px;
+    }
+}
+

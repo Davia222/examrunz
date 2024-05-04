@@ -1,0 +1,19 @@
+.addHeight{
+    height: 200px;
+}
+
+.answserWarning{
+    margin-top: 100px;
+    text-align: center;
+    width: 280px;
+    margin: auto;
+    font-size: 14px;
+}
+
+.refreshWarning{
+    margin: auto;
+    width: 280px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+}

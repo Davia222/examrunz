@@ -1,0 +1,36 @@
+.activity-feed {
+    height: 100px; /* Set a fixed height for the container */
+    overflow: hidden; /* Hide overflowing content */
+    width: 280px;
+    margin: auto;
+    border: 1px solid #454c9b5b;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .activity-item {
+    background-color: #f0f0f0;
+    padding: 7px;
+    margin-bottom: 5px;
+    transition: transform 1s; /* Add a transition effect for smooth scrolling */
+    animation: scrollUp 2s infinite;
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+  }
+
+
+  
+  
+  
+  @keyframes scrollUp {
+    0% {
+     bottom: -10px;
+    }
+    100% {
+      bottom: 100%;
+      /* Fade out when reaching the top */
+    }
+  }

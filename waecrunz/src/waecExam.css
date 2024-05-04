@@ -1,0 +1,148 @@
+.waecExamsH1{
+    margin-top: 30px;
+    font-weight: 350;
+    text-align: center;
+    font-size: 25px;
+}
+
+.alphaSubjectSec{
+    margin-top: 30px;
+    height: 3000px;
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #454c9b25;
+    margin-bottom: 50px;
+}
+
+.subjectSec{
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid #454c9b9d; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.subjectSecNeco{
+    height: 100%;
+    width: 70%;
+    /* border: 1px solid #454c9b9d; */
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.3;
+}
+
+
+.subjectDiv{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.centerer{
+    width: 400px;
+    height: 100%;
+    border: 1px solid #454c9b9d;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.subject{
+    font-size: 13px;
+    height: 27px;
+    width: 115px;
+    /* border: 1px solid black; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.bookNow{
+    font-size: 12px;
+    padding: 5px;
+    width: 75px;
+    flex-shrink: 0;
+    border: 1px solid #454c9b9d;
+    height: 27px;
+}
+
+.bookNow:hover{
+    font-size: 12px;
+    padding: 5px;
+    width: 75px;
+    flex-shrink: 0;
+    border: 1px solid #454c9b9d;
+    height: 27px;
+    background-color: #454c9b9d;
+    color: white;
+}
+
+.bookNow:active{
+    font-size: 12px;
+    padding: 5px;
+    width: 75px;
+    flex-shrink: 0;
+    border: 1px solid #454c9b9d;
+    height: 27px;
+    background-color: #23f5109d;
+    color: white;
+}
+
+.totalBooking{
+    font-size: 10px;
+    height: 30px;
+    width: 40px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.eyeImg{
+    height: 17px;
+}
+
+.whatsappGroup{
+   text-align: center;
+   font-size: 20px;
+   font-weight: 300;
+   margin-bottom: 50px;
+}
+
+.changeRed{
+   color: rgb(50, 205, 63);
+}
+
+@media screen and (max-width:650px) {
+    .alphaSubjectSec{
+        background-color: white;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .centerer{
+        width: 300px;
+    }
+
+    .subject{
+        font-size: 11px;
+    }
+
+    .bookNow{
+        font-size: 11px;
+        width:70px;
+    }
+}

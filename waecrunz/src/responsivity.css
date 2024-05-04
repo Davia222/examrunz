@@ -1,0 +1,184 @@
+@media screen and (max-width:990px) {
+    .logoAndLogin, .changeColor{
+        gap: 5%;
+    }
+
+    .examAns{
+        font-size: 70px;
+    }
+
+    #About{
+
+        height: 1100px;
+        /* border: 1px solid black; */
+    }
+
+    .aboutTxtAndImg{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #services{
+        padding-top: 50px;
+        height: 1100px;
+        /* border: 2px solid black; */
+    }
+}
+
+@media screen and (max-width:720px){
+    .bestWebsite{
+        font-size: 14px;
+    }
+
+    #services, #About{
+        height: 1000px;
+    }
+
+    .aboutTxt{
+        width: 400px;
+    }
+
+    .aboutImgDiv{
+        width: 350px;
+        height: 270px;
+    }
+
+    .servicesImgDiv{
+        width: 350px;
+        height: 270px;
+    }
+
+    .servicesTxt{
+        width: 400px;
+    }
+
+    .reviewsDivFlexer{
+        gap: 1px;
+
+    }
+
+    .contactOptionDiv{
+        flex-direction: column;
+    }
+
+    #reviews, #contact{
+        padding-top: 0;
+    }
+
+    .logoAndLogin, .changeColor{
+        justify-content: space-between;
+    }
+
+    .menuBar{
+        /* border:  1px solid black; */
+        width: 300px;
+        gap: 10px;
+    }
+
+    .menuNav{
+        width: 100px;
+        flex-direction: column;
+        border: 2px solid black;
+       display: none;
+       
+    }
+
+    #hambgr{
+        display: flex;
+    }
+
+    .menuNav2 {
+        height: 300px;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-shrink: 0;
+        background-color: #454c9b96;
+        /* border: 1px solid black; */
+        align-items: center;
+        padding-top: 100px;
+        border-radius: 5px;
+        margin-top: 150px;
+        margin-left:-85px ;
+    }
+
+    
+}
+
+@media screen and (max-width:520px){
+
+.allReviews{
+    height: 80%;
+    width: 250px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.reviewsPic{
+    height: 200px; 
+    width: 180px;
+ }
+
+}
+
+@media screen and (max-width:450px){
+    
+    .aboutTxt{
+        width: 300px;
+        height: 550px;
+        /* border: 1px solid black; */
+        gap: 20px;
+    }
+
+    .aboutImgDiv{
+        width: 250px;
+        height: 170px;
+    }
+
+    .servicesImgDiv{
+        width: 250px;
+        height: 170px;
+    }
+
+    .servicesTxt{
+        width: 300px;
+        height: 550px;
+        /* border: 1px solid black; */
+        gap: 20px;
+    }
+
+    .moveImgLeft{
+        flex-shrink: 0;
+     }
+     
+     .moveImgRight{
+        flex-shrink: 0;
+     }
+
+     .loginOrSignUp{
+        height: 30px;
+        width: 90px;
+        padding-top: 5px;
+        font-size: 13px;
+    }
+    .menuBar{
+        gap: 5px;
+        /* border: 1px solid black; */
+    }
+
+    .menuNav2{
+        margin-left: -70px;
+        width: 80px;
+    }
+
+    .logoAndLogin, .changeColor{
+      width: 100%;   
+      justify-content: space-between;
+      /* border: 1px solid black;    */
+    }
+
+}
