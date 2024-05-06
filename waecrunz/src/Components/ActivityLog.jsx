@@ -12,7 +12,7 @@ const TextCycle = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const [number, setNumber] = useState(0)
+  const [number, setNumber] = useState(7645)
 
   useEffect(()=>{
     const min = 1000

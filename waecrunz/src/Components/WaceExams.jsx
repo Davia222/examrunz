@@ -17,7 +17,7 @@ function WaceExams() {
 
            <div className='subjectDiv'>
             <div className='centerer'>
-                <p className='subject'>Food & Nut [FREE]</p>
+                <p className='subject'>Food & Nut</p>
 
                 <a href="https://wa.me/2347044334946?text=Hello! please i want to book Foods and Nutrition (Essay and Objective)" target='_blank' className='bookNow'> Book Paper</a>
 
@@ -267,7 +267,7 @@ function WaceExams() {
         
     <div className='subjectDiv'>
     <div className='centerer'>
-     <p className='subject'>Chemistry [FREE]</p>
+     <p className='subject'>Chemistry</p>
 
      <a href="https://wa.me/2347044334946?text=Hello! please i want to book Chemistry (Essay and Objective)" target='_blank' className='bookNow'>Book Paper</a>
 

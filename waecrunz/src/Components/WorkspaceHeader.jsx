@@ -24,7 +24,7 @@ function WorkspaceHeader({ openExamHandler, openExamHandler2, openExamHandler3})
 
   }
 
-  const [randomNumber, setRandomNumber] = useState(0);
+  const [randomNumber, setRandomNumber] = useState(1380);
 
   useEffect(() => {
     const interval = setInterval(() => {
