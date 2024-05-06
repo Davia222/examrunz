@@ -19,7 +19,7 @@ function WaceExams() {
             <div className='centerer'>
                 <p className='subject'>Technical Drawing</p>
 
-                <a href="https://wa.me/2347044334946?text=Hello! please i want to book Foods and Nutrition (Essay and Objective)" target='_blank' className='bookNow'> Book Paper</a>
+                <a href="https://wa.me/2347044334946?text=Hello! please i want to book Technical Drawing  (Essay and Objective)" target='_blank' className='bookNow'> Book Paper</a>
 
                 <Link to="paperi" className='bookNow'>Enter Pin</Link>
 
