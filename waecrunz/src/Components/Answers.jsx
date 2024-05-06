@@ -1,12 +1,12 @@
 import React from 'react'
 import image1 from "../assets/technical drawing questions and answers/number1.jpeg"
 import image2 from "../assets/technical drawing questions and answers/number2.jpeg"
-import image3 from "../assets/technical drawing questions and answers/number2.jpeg"
-import image4 from "../assets/technical drawing questions and answers/number2.jpeg"
-import image5 from "../assets/technical drawing questions and answers/number2.jpeg"
-import image6 from "../assets/technical drawing questions and answers/number2.jpeg"
-import image7 from "../assets/technical drawing questions and answers/number2.jpeg"
-import image8 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image3 from "../assets/technical drawing questions and answers/image3.jpeg"
+import image4 from "../assets/technical drawing questions and answers/image4.jpeg"
+import image5 from "../assets/technical drawing questions and answers/image5.jpeg"
+import image6 from "../assets/technical drawing questions and answers/image6.jpeg"
+import image7 from "../assets/technical drawing questions and answers/image7.jpeg"
+import image8 from "../assets/technical drawing questions and answers/image7.jpeg"
 
 
 function Answers() {
