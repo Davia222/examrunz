@@ -1,5 +1,5 @@
 .addHeight{
-    height: 200px;
+    height: 100px;
 }
 
 .answserWarning{
@@ -16,4 +16,20 @@
     margin-top: 50px;
     text-align: center;
     font-size: 14px;
+}
+
+.centerMe{
+    height: 400px;
+    width: 300px;
+    /* border: 1px solid black; */
+    margin: auto;
+    text-align: center;
+}
+
+.essay{
+    text-align: center;
+}
+
+.obj{
+    text-align: center;
 }
