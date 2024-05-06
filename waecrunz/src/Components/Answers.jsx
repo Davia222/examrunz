@@ -1,6 +1,13 @@
 import React from 'react'
 import image1 from "../assets/technical drawing questions and answers/number1.jpeg"
 import image2 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image3 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image4 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image5 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image6 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image7 from "../assets/technical drawing questions and answers/number2.jpeg"
+import image8 from "../assets/technical drawing questions and answers/number2.jpeg"
+
 
 function Answers() {
   return (
@@ -20,7 +27,17 @@ function Answers() {
 
     <p>Number 3</p>
 
-    <img src="" alt="" />
+    <img src={image3} alt="" />
+
+    <img src={image4} alt="" />
+
+    <img src={image5} alt="" />
+
+    <img src={image6} alt="" />
+
+    <img src={image7} alt="" />
+
+    <img src={image8} alt="" />
 
     Answers loading  . . .
 

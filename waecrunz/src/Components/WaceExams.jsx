@@ -37,7 +37,7 @@ function WaceExams() {
 
                 <a href="https://wa.me/2347044334946?text=Hello! please i want to book Foods and Nutrition (Essay and Objective)" target='_blank' className='bookNow'> Book Paper</a>
 
-                <Link to="paperi" className='bookNow'>Enter Pin</Link>
+                <Link to="paperii" className='bookNow'>Enter Pin</Link>
 
                 <div className='totalBooking'><img src={eye} alt="" className='eyeImg' /> <p>1.8k</p></div>
             </div>
