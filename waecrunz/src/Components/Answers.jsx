@@ -1,12 +1,30 @@
 import React from 'react'
+import image1 from "../assets/technical drawing questions and answers/number1.jpeg"
+import image2 from "../assets/technical drawing questions and answers/number2.jpeg"
 
 function Answers() {
   return (
     <>
     <div className='addHeight'></div>
-    <p className='answserWarning'>Questions and Answers Will be delivered 2hrs Before the exam</p>
+    <p>Number 1</p>
+    
+    <img src={image1} alt="" />
 
-    <p className='refreshWarning'>Please Don't be Scared, Refresh Page if you haven't seen the Answers 2hrs Before the Exam</p>
+    <br />
+    <br />
+
+    <p>Number 2</p>
+
+    <img src={image2} alt="" />
+    <br /> <br />
+
+    <p>Number 3</p>
+
+    <img src="" alt="" />
+
+    Answers loading  . . .
+
+    
     </>
   )
 }
