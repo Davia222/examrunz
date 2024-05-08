@@ -9,6 +9,8 @@ function NecoExam() {
     <>
     <h1 className='waecExamsH1'>Neco Exam Dashboard</h1>
 
+    <p style={{textAlign:"center"}}>**Coming Soon**</p>
+
 <section className='alphaSubjectSec'>
 
     <section className='subjectSecNeco'>

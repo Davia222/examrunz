@@ -20,7 +20,7 @@
 
 .centerMe{
     height: 400px;
-    width: 300px;
+    width: 320px;
     /* border: 1px solid black; */
     margin: auto;
     text-align: center;
@@ -28,8 +28,14 @@
 
 .essay{
     text-align: center;
+    font-size: 20px;
 }
 
 .obj{
     text-align: center;
+    font-size: 20px;
+}
+
+.agricImg{
+    width: 300px;
 }

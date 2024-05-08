@@ -173,7 +173,7 @@ function WaceExams() {
 
      <a href="https://wa.me/2347044334946?text=Hello! please i want to book English Language (Essay, Objective and test of orals)" target='_blank' className='bookNow'> Book Paper</a>
 
-     <Link to="paperi" className='bookNow'>Enter Pin</Link>
+     <Link to="paperii" className='bookNow'>Enter Pin</Link>
 
      <div className='totalBooking'><img src={eye} alt="" className='eyeImg' /> <p>5.5k</p></div>
      </div>
@@ -189,7 +189,7 @@ function WaceExams() {
 
      <a href="https://wa.me/2347044334946?text=Hello! please i want to book Chemistry 3 (Practical)" target='_blank' className='bookNow'> Book Paper</a>
 
-     <Link to="paperi" className='bookNow'>Enter Pin</Link>
+     <Link to="paperiii" className='bookNow'>Enter Pin</Link>
 
      <div className='totalBooking'><img src={eye} alt="" className='eyeImg' /> <p>2.7k</p></div>
      </div>
@@ -568,7 +568,7 @@ function WaceExams() {
 
      <a href="https://wa.me/2347044334946?text=Hello! please i want to book Health Education (Essay and Objective)" target='_blank' className='bookNow'>Book Paper</a>
 
-     <Link to="paperi" className='bookNow'>Enter Pin</Link>
+     <Link to="paperiv" className='bookNow'>Enter Pin</Link>
 
      <div className='totalBooking'><img src={eye} alt="" className='eyeImg' /> <p>912</p></div>
      </div>
@@ -576,21 +576,7 @@ function WaceExams() {
     </div>
 
 
-    {/* paper 33 */}
-
-        
-    <div className='subjectDiv'>
-    <div className='centerer'>
-     <p className='subject'>Chemistry [prac]</p>
-
-     <a href="https://wa.me/2347044334946?text=Hello! please i want to book Chemistry (Practical)" target='_blank' className='bookNow'>Book Paper</a>
-
-     <Link to="paperi" className='bookNow'>Enter Pin</Link>
-
-     <div className='totalBooking'><img src={eye} alt="" className='eyeImg' /> <p>3.8k</p></div>
-     </div>
-
-    </div>
+    
        
 
     </section>
